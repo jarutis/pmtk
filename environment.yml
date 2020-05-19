@@ -1,0 +1,19 @@
+name: pmtk
+channels:
+  - intel
+  - conda-forge
+dependencies:
+  - numpy
+  - scipy
+  - pandas
+  - xtensor
+  - scikit-learn
+  - matplotlib
+  - einops
+  - pyflann
+# dev dependancies
+  - jupyterlab
+  - xeus-cling
+  - isort
+  - black
+  - jupyterlab_code_formatter
